@@ -1,0 +1,46 @@
+body {
+    background-color: wheat !important;
+}
+
+.container {
+    position: relative;
+    width: 450px !important;
+    height: 350px;
+    background-color: white;
+    border-radius: 25px;
+    top: 70px;
+}
+
+.button {
+    background-color: transparent;
+    top: 5rem;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 30px;
+}
+
+.form-control {
+    border: 2px solid gray !important;
+}
+
+#toDoList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #f4f4f4;
+    border-radius: 0.5em;
+    width: 300px;
+}
+
+#toDoList {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: 70px;
+}

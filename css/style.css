@@ -1,0 +1,338 @@
+body {
+    height: 3000px;
+    overflow-x: hidden;
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+
+.header{
+    background-color: rgb(219, 217, 217);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 !important;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.landing-page{
+    position: relative;
+    top: 150px;
+    display: flex;
+}
+
+.animation-icon{
+    position: relative;
+    left: 300px;
+    top: -100px;
+}
+
+.txt-intro{
+    position: relative;
+    left: 30px;
+}
+
+.circle{
+    position: absolute;
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    left: 370px;
+    top: -50px;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+
+.circle1{
+    position: absolute;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    left: 200px;
+    top: -50px;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+
+.start-btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    top: 100px;
+}
+
+button.get-started{
+    width: 12rem;
+    height: auto;
+}
+
+button.get-started .btn-circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+button.get-started .btn-circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.get-started .btn-circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.get-started .btn-circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.get-started .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .btn-circle {
+    width: 100%;
+}
+
+
+button:hover .btn-circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+    color: #fff;
+}
+
+.bar-btn{
+    position: relative;
+    display: none !important;
+    justify-content: end;
+}
+
+.main{
+    background-color: antiquewhite;
+    position: relative;
+    top: 300px;
+    padding: 50px 100px 50px 100px;
+}
+
+.main-3 {
+    position: relative;
+    top: 550px;
+}
+
+.header-main-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img{
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
+
+.main-3-content {
+    position: relative;
+    top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contactUs {
+    position: relative;
+    top: 850px;
+}
+
+.contactUs-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-information {
+    position: relative;
+    top: 50px;
+    width: 450px;
+    height: 600px;
+    background-color: #14195e;
+    border-radius: 30px;
+}
+
+.contact-information-content, .form {
+    position: relative;
+    top: 150px;
+}
+
+.phone, .email, .location {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    left: 10%;
+}
+
+.circle3 {
+    background-color: antiquewhite;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    opacity: 0.5;
+}
+.circle4 {
+    background-color: rgb(199, 151, 88);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    opacity: 0.5;
+}
+
+
+.social {
+    position: relative;
+    display: flex;
+    gap: 1.3rem;
+    top: 50%;
+    left: 10%;
+}
+
+.contact-form {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+#scroll-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(115, 113, 113);
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+ 
+#scroll-btn:hover {
+    background-color: #555;
+}
+
+footer {
+    position: relative;
+    top: 1100px;
+}
+@media screen and (max-width:768px) {
+
+    .animation-icon {
+        top: 100px;
+        left: 15px;
+    }
+
+    .navs {
+        display: none;
+    }
+
+    .bar-btn {
+        display: flex !important;
+        
+    }
+
+    .main-text {
+        position: relative;
+        top: -27px;
+    }
+
+    .main-img {
+        display: none;
+    }
+
+    .main {
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 400px;
+        top: 500px;
+    }
+
+    .animation-icon {
+        display: none;
+    }
+
+    .contact-information {
+        font-size: 12px;
+    }
+    .contact-form {
+        gap: 1rem;
+    }
+}
+   
+   
+
