@@ -8,7 +8,7 @@ function addToDoItem() {
         if (this.checked) {
             listItem.classList.add('done')
         } else {
-            listItem.classList.remove('done')
+            listItem.classList.add('pending')
         }
 
         saveToDoList()
